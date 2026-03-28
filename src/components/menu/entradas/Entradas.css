@@ -1,0 +1,12 @@
+.entradas {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url('../../../assets/imgs/entradas_imgs/bg_entradas.png');
+}
+
+.entradas_platos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 2rem;
+}

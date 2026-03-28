@@ -1,0 +1,50 @@
+.plato {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 1rem;
+}
+
+.plato.left {
+    flex-direction: row;
+}
+
+.plato.right {
+    flex-direction: row-reverse;
+}
+
+.content_img_nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plato_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: solid 1px #ccc;
+    margin-bottom: .5rem !important;
+}
+
+.plato_nombre_precio{
+    font-weight: bolder;
+}
+
+.plato_descripcion, .plato_nombre_precio{
+    text-align: start;
+    margin-bottom: .5rem !important;
+}
+
+.plato_nombre{
+    margin-right: .3rem !important;
+}
+
+.plato.left .plato_descripcion,
+.plato.left .plato_nombre_precio{
+    text-align: end;
+}
+
+.content_info_plato{
+    padding: .5rem;
+}

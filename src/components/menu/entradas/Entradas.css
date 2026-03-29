@@ -1,5 +1,5 @@
 .entradas {
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url('../../../assets/imgs/entradas_imgs/bg_entradas.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../assets/imgs/entradas_imgs/bg_entradas.png');
 }
 
 .entradas_platos {
